@@ -21,7 +21,7 @@ const RAPIDAPI_HOST = 'gaialens-esg-scores.p.rapidapi.com';
 const ESG_API_URL = 'https://gaialens-esg-scores.p.rapidapi.com/scores';
 
 // OpenAI API key
-const OPENAI_API_KEY = 'sk-proj-NKy23KXL7eUlle640jyjT3BlbkFJqI3xuc8VOgqcxhDa3wS1';
+const OPENAI_API_KEY = 'api_key';
 const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
 // API for fetching ESG data for a company from RapidAPI
